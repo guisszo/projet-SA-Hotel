@@ -1,0 +1,1260 @@
+/* animations css*/
+@-webkit-keyframes masuperanimation { /* Safari, Opera, Chrome */
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(20px) rotate(30deg);
+    }
+}
+
+@keyframes masuperanimation { /* Tous les autres navigateurs */
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(20px) rotate(30deg);
+    }
+}
+/* fin description de l'animation*/
+
+body{
+    font-family:Verdana, Calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    color: #784411;
+}
+.mycontainer{
+    width:100%;
+    margin:auto;
+    max-width: 1200px; 
+}
+
+.header{
+    margin: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 680px;
+    background-color: white;
+    background-image: url(../images/suitesP.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation-bar{
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 70px;
+    background-color: #1b1839;
+
+}
+
+.logo{
+    width: 20%;
+    max-width: 200px;
+    margin-top: 10px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.logo img{
+    width: 100%;
+    max-height: 70px;
+}
+.menu{
+    width: 68%;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    float: right;
+    border: 1px solid none;
+}
+
+
+/*.welcome h1{
+    color:#3a3375;
+     text-align: center;
+}*/
+#menu-icon{
+    background-image: url(../images/menu.jpg);
+    background-size: cover;
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-top:20px;
+    border:solid black 1px;
+    float: right;
+    margin-right: 30px;
+   
+}
+
+.myicon a{
+    border:solid none 1px;
+    display:none;
+    width:100%;
+    text-align: center;
+    color:#fff;
+    font-family: arial;
+    font-weight:bold;
+}
+.navigation-bar .menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid none;
+}
+.navigation-bar .menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 18%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid none;
+}
+.navigation-bar .menu ul li a{
+    text-decoration: none;
+    display:block;
+    height: 40px;
+    transition: ls;
+    border: 1px solid none;
+    color:white;
+}
+
+.vider{
+    clear: both;
+}
+/*.navigation-bar .menu ul li a:hover{
+    padding: 8px 8px;
+    background-color: #3a3375;
+   -webkit-animation: masuperanimation 2s;  Safari, Opera, Chrome 
+    animation: masuperanimation 300ms linear alternate infinite; Tous les autres navigateurs 
+    
+    transform: scale(1.1);
+    transition: ls;
+    border:2px solid #afabd8;
+}*/
+
+.navigation-bar .menu ul li a:hover{
+    border-top:solid lightgray 1px;
+    border-bottom:solid lightgray 1px;
+}
+
+.content{
+    margin: auto;
+    min-height: 700px;
+    margin-top:20px;
+
+}
+
+.about{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+   
+}
+.containerAbout{
+    width: 96%;
+    margin: auto;
+    max-width: 800px;
+}
+.about-image{
+    width:48% ;
+   
+    display: inline-block;
+    vertical-align: middle;
+}
+.about-image img{
+    width:90%;
+   margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+}
+.about-text{
+
+    font-size: 13px;
+    width: 48%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: middle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.services{
+    margin-top:70px; 
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+}
+.services p{
+    text-align: left;
+    font-size: 12px;
+}
+.suites{
+    width: 20%;
+    height: 200px;
+    min-width: 200px;
+    margin-bottom: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+.suites img{
+    width:85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.chambres{
+    width: 20%;
+    height: 200px;
+    min-width: 200px;
+    margin-bottom: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+.chambres img{
+    width:85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.sallons{
+    width: 20%;
+    height: 200px;
+    min-width: 200px;
+    margin-bottom: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+.sallons img{
+    width:85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.restaurant{
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 15px;
+    min-width: 200px;
+}
+.restaurant img{
+    width:85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.galerie{
+    width: 100%;
+    margin-top: 100px;
+   min-height: 400px;
+}
+
+.galerie img{
+    width:20% ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 15px 15px 15px 15px;
+    filter:grayscale(0);
+    transition: all 300ms;
+}
+.galerie img:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+p a{
+    font-size: 16px;
+    color:maroon;
+}
+
+/* style de la page restaurant*/
+.contentR{
+    margin: auto;
+    width: 100%;
+    min-height: 500px;
+    margin-top:0px;
+}
+
+.home{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+video{
+    margin:0  auto;
+    width: 100%;
+    
+}
+.nos-restaurants{
+    margin: auto;
+    width: 100%;
+    margin-top:20px; 
+    min-height: 700px;
+    border: 1px solid #dbdbdb;
+}
+.nos-restaurants p{
+    padding: 5px;
+}
+.restau1{
+    width: 20%;
+    min-width: 200px;
+    min-height: 200px;
+    margin-left: 35px;
+    margin-right: 50px;
+    vertical-align: top;
+    display: inline-block;
+}
+.restau1 img{
+    width:90%;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    transition: all 500ms;
+    border-radius: 15px 15px 15px 15px;
+}
+.restau1 img:hover{
+    transform: scale(1.1);
+    transition: all 500ms;
+}
+
+.restau2{
+    width: 20%;
+    min-height: 200px;
+    min-width: 200px;
+    margin-right: 50px;
+    vertical-align: top;
+    display: inline-block;
+}
+.restau2 img{
+    width:90% ;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    transition: all 500ms;
+    border-radius: 15px 15px 15px 15px;
+}
+.restau2 img:hover{
+    transform: scale(1.1);
+    transition: all 500ms;
+}
+/*.restau2hover p{
+    position: relative;
+    top:0;
+}
+.restau2 img:hover{
+    display: block;
+    border: 1px solid red;
+}*/
+
+
+.restau3{
+    width: 20%;
+    min-width: 200px;
+    min-height: 200px;
+    margin-right: 50px;
+    vertical-align: top;
+    display: inline-block;
+}
+.restau3 img{
+    width:90%;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    transition: all 500ms;
+    border-radius: 15px 15px 15px 15px;
+}
+.restau3 img:hover{
+    transform: scale(1.1);
+    transition: all 500ms;
+}
+.restau4{
+    width: 20%;
+    min-width: 200px;
+    min-height: 200px;
+    vertical-align: top;
+    display: inline-block;
+}
+.restau4 img{
+    width:90% ;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    transition: all 500ms;
+    border-radius: 15px 15px 15px 15px;
+}
+.restau4 img:hover{
+    transform: scale(1.1);
+    transition: all 500ms;
+}
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    background-color:#1b1839;
+    color: white;
+}
+.contentFooter{
+    width: 100%;
+    border: 1px solid none;
+    padding-top: 50px;
+}
+.find-us{
+width: 20%;
+float: left;
+border: 1px solid none;
+border-right: 1px solid none;
+}
+.find-us .adress{
+    width: 100%;
+    font-size: 16px;
+    overflow:hidden;
+}
+.find-us .adress p{
+    font-size: 14px;
+}
+.find-us .social-link {
+    width: 100%;
+}
+.find-us .social-link img{
+    width: 20%;
+    height: 30px;
+}
+.find-us h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.nav-link{
+    width: 20%;
+    float: left;
+    border-right:1px solid none;
+}
+.nav-link h5{
+    text-align: center;
+    font-size: 18px;
+}
+.nav-link ul {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    
+    border: 1px solid none;
+}
+.nav-link ul li {
+    position: relative;
+    list-style-type: none;
+}
+
+.nav-link ul li a{
+    display: block;
+    font-size: 14px;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.nav-link ul {
+    text-align: left;
+    margin: 0px;
+    padding-right: 5px;
+    list-style: none;
+    text-decoration: none;
+    
+    border: 1px solid none;
+}
+.nav-link ul li {
+    width:80%;
+    HEIGHT:45px;
+    line-height:45px;
+    border-bottom:1px solid gray;
+}
+
+.nav-link ul li a{
+    display: block;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    
+}
+  
+.contact-form{
+    width: 25%;
+    margin-right: 5%;
+    background-color: #3a3375;
+    float: left;
+    border-right:1px solid none;
+}
+.contact-form input{
+    background-color: #756ac9cb;
+    height:25px;
+    width:100%;
+    border:solid  #756ac9cb 1px;
+    margin-bottom: 15px;
+}
+
+#submit [type="submit"]{
+    background-color: #756ac9cb;
+    height:25px;
+    width:100%;
+    border:solid  #756ac9cb 1px;
+    
+}
+
+.contact-form textarea{
+    background-color: #756ac9cb;
+    height:75px;
+    width:100%;
+    border:solid  #756ac9cb 1px;
+}
+.contact-form h5{
+    text-align: center;
+    font-size:1.1em;
+}
+form{
+    width: 70%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.map{
+    width: 25%;
+    height:375px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid gray;
+}
+.map iframe{
+    width: 100%;
+}
+.copyright{
+    margin-top: 15px;
+    width: 100%;
+}
+.copyright p{
+    font-size: 14px;
+    text-align: right;
+    color: white;
+}
+/*========= MEDIA ========*/
+
+@media(max-width:640px){
+
+    #menu-icon{
+        background-image: url(../images/menu.jpg);
+        background-size: cover;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top:20px;
+        border:solid red 1px
+    }
+
+    .menu{
+        width:25%;
+        position:relative;
+        border:none;
+        border:solid none 1px;
+    }
+
+    .myicon a{
+        border:solid none 1px;
+        display:block;
+        width:100%;
+        text-align: center;
+        color:#fff;
+        font-family: arial;
+        font-weight:bold;
+    }
+
+    .myicon a:hover{
+        border:solid none 1px;
+        display:block;
+        width:100%;
+        text-align: center;
+        color:#fff;
+        font-family: arial;
+        font-weight:bold;
+        text-decoration: underline;
+    }
+
+
+    .menu ul {
+        width:200%;
+        position: absolute;
+        background:rgba(24,24,27,0.8);
+        top:70px;
+        right:0px;
+        margin: 0px;
+        list-style: none;
+        text-decoration: none;
+        border:none;
+        border:solid #333 1px;
+        display: none;
+    }
+
+    .menu:hover ul{
+            display:block;
+        }
+
+    .navigation-bar .menu ul li {
+        display:block;
+        list-style-type: none;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border:none;
+        border-bottom: solid lightgray 1px;
+    }
+    .navigation-bar .menu ul li a{
+        text-decoration: none;
+        display:block;
+        height: 40px;
+        border: none;
+        color:white;
+        border-radius: 0px;
+        transition:all 300ms;
+    }  
+
+    .navigation-bar .menu ul li a:hover{
+        letter-spacing: 3px;
+        transition:all 300ms;
+    }
+
+    .map, .find-us{
+        display:none;
+    }
+
+    .nav-link, .contact-form{
+        width:45%;
+    }
+
+    .nav-link ul {
+        text-align: left;
+        margin: 0px;
+        padding-right: 5px;
+        list-style: none;
+        text-decoration: none;
+        
+        border: 1px solid none;
+    }
+    .nav-link ul li {
+        width:80%;
+        HEIGHT:45px;
+        line-height:45px;
+        border-bottom:1px solid gray;
+    }
+    
+    .nav-link ul li a{
+        display: block;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        
+    }
+}
+
+/*================ GUISSE ===========*/
+
+#conteneur{
+    align-items: center;
+    margin: 5%;
+    margin-top: 2%;
+   
+}
+.Hsuite{
+    font-size: 20px;
+    margin-left: 1%;
+    
+    color: #333333;
+}
+#suite{
+   
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+}
+
+#sous-conteneur{
+
+   
+    width: 48%;
+    
+}
+
+#grand-img img{
+    width:100%;
+    height: 55%;
+   
+}
+#petit-img{
+display:flex;
+
+flex-wrap: nowrap;
+width:100%;
+}
+#img1{
+float:left;
+margin: 1%;
+margin-left: 0;
+width: 50%;
+
+}
+#img2{
+    float: right;
+    margin: 1%;
+    margin-right: 0;
+    width: 50%;
+    height:auto;
+    
+    }
+    
+
+    #para{
+        width:100%;
+        height: 50%;
+        padding: 3%;
+        text-align: justify;
+       
+        
+    }
+    #btn{
+        display: flex;
+        margin: 1%;
+        width:99%;
+        height: 20%;
+       
+        background-color: #ffbe81;
+    }
+    #btn a {
+        width: 45%;
+        background-color: #ffb062;
+        border: none;
+        color: white;
+        height: 3em;
+        padding-top: 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 8px;
+        margin: 3%;
+        margin-bottom: 2%;
+    }
+    #btn h2{
+        margin: 3%;
+        margin-left: 3.5%;
+        font-size: 35px;
+
+    }
+    /* SECONDE DIV*/
+
+    #sous-conteneur2{
+
+   
+        width: 48%;
+        margin: 0.5%;
+        
+    }
+    #img3{
+        float:right;
+        margin: 1%;
+        margin-left: 0;
+        width: 50%;
+        
+        }
+        #img4{
+            float: left;
+            margin: 1%;
+            margin-right: 0;
+            width: 50%;
+            height:auto;
+            
+            }
+            #para2{
+                width:97%;
+                height: 50%;
+                padding: 3%;
+                padding-right: 3%;
+                text-align: justify;
+               
+                
+            }
+
+            
+
+            /*RESPONSIVITÉ*/
+
+            
+
+/* =========== MBACKE ===============*/
+
+.principal{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+    border:solid none 1px;
+}
+
+article{
+    display: inline-block;
+    vertical-align: top;
+    width:35%;
+    border:solid none 1px;
+    text-align: justify;
+}
+
+.central{
+    display: inline-block;
+    vertical-align: top;
+    border:solid none 1px;
+    margin:auto;
+    width: 100%;
+    background-color: lightgray;    
+}
+
+.central img{
+    width:100%;    
+}
+
+.basprim{
+    width: 100%;
+    display: inline-block;
+    border:solid none 1px;
+}
+
+.basprim img{
+    width:46%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+
+}
+
+.bas{
+    margin-top: 10px;
+}
+
+article{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+article p{
+    font-size: 1.2em;
+}
+
+.bouton{
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    height: 50px;
+    background-color: khaki;
+    border:solid none 1px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 30px;
+    
+
+}
+.bouton_rouge {
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border:solid none 1px;
+    padding-left:10px;
+    padding-right:10px;
+    display: inline-block; 
+    height: 25px;
+    width:50%;
+    line-height:25px;
+    background-color: darkgoldenrod;
+    border-radius:15px;
+}
+
+
+
+.prix{
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width:30%;
+    margin-top: 10px;
+}
+
+.prix p{
+    font-size: 1.2em;
+    font-family: arial;
+    font-weight:bold;
+    color:#333;
+}
+.principal h3{
+    text-align: left;
+    font-size:1em;
+    margin-bottom: 20px;
+}
+
+#unsallon{
+    margin-top: 50px;
+    border:solid darkgray 1px;
+    padding:5px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/*============= ASTA ===========*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color:#efefef;
+    scroll-behavior: smooth;
+}
+
+#contain_chambre{
+    background:#fff;
+    text-align: center;
+}
+#content_reservation{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    font-family: Arial;
+    /*==============*/
+    background-image: url("../images/dakar.png");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: middle;
+    padding-top: 15vh;
+}
+
+
+#letitre{
+    width:100%;
+    background: orange;
+    background-image:linear-gradient(orange,darkorange);
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    
+}
+#formulaire_reservation{
+    background: rgba(255,255,255,0.6);
+
+    width:60%;
+    margin: auto;
+    max-width: 400px;
+    text-align: justify;
+    border-radius:0px 50px 0px 50px;
+    overflow: hidden;
+    box-shadow:3px 3px 3px black;
+}
+#formulaire_reservation input{
+    width:100%;
+    height: 30px;
+    margin-bottom: 15px;
+    color: orange;
+    border:solid gray 1px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#formulaire_reservation h3 {
+    width: 70%;
+    BORDER:solid none 1px;
+    margin-left: 10%;
+    color:#fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+#formulaire_reservation select{
+    width:100%;
+    height: 30px;
+    margin-bottom: 15px;
+    color: orange;
+    background-color: rgba(0,0,0,0.6);
+    border:solid gray 1px;
+}
+
+#formulaire_reservation [type="date"]{
+    width:45%;
+    color: orange;
+    background-color: rgba(0,0,0,0.6);
+    border:solid gray 1px;
+    padding-left:1px; 
+}
+
+#content_form{
+    width:70%;
+    border:solid none 1px;
+    margin-left:10%;
+    border:solid none 1px;
+}
+
+#formulaire_reservation [type="submit"]{
+    width:150px;
+    background-image:linear-gradient(orange,darkorange);
+    color:#000;
+    border:solid orange 1px;
+    cursor: pointer;
+}
+
+#formulaire_reservation textarea{
+    width:100%;
+    min-width: 200px;
+    max-width: 100%;
+    height:20vh;
+    max-height: 20vh;
+    min-height: 20vh;
+    margin-bottom: 15px;
+    color: orange;
+    border:solid gray 1px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#formulaire_reservation option{
+    color:darkorange;
+    background-color: #000;
+}
+
+#img_banniere{
+    width:100%;
+    border:solid none 1px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#img_banniere img{
+    width:100%;
+}
+
+#banniere_chambre{
+    height:300px;
+    width:100%;
+    border:solid none 1px;
+    box-shadow:2px 2px 2px gray;
+    margin-bottom: 50px;
+
+    /*========*/
+    background-image:url("../images/bed1.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: bottom;;
+}
+
+#content_banniere_chambre {
+    width:60%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border:solid none 1px;
+}
+
+#content_banniere_chambre p{
+    display: block;
+    border:solid none 1px;
+    color:#fff;
+    font-family: arial;
+    text-shadow:1px 1px 5px #333;
+    font-weight:bold;
+    font-size: 2em;
+    padding-top: 50px;
+}
+
+#contain_chambre, #contain_sallon{
+    width:85%;
+    margin: auto;
+    max-width: 1200px;
+    border:solid none 1px;
+    background-color: #fff;
+    padding-top: 0vh;
+
+}
+
+.unechambre h2{
+    width:40%;
+    font-size:1.3em;
+    color:#333;
+    font-family:arial;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.unechambre{
+    margin: auto;
+    width:100%;
+    max-width: 900px;
+    border:solid none 1px;
+    margin-bottom: 80px;
+}
+
+
+.unechambre img{
+    transition:all 500ms;
+    filter: grayscale(0.3);
+}
+
+.unechambre img:hover{
+    animation:pingpong 1s 1 ;
+    transition:all 250ms;
+    filter: grayscale(0);
+}
+
+.unechambre #droite1{
+    margin-right: 3%;
+}
+
+.unechambre #gauche{
+    margin-right: 3%;
+}
+
+.unechambre #gauche2{
+    margin-right: 3%;
+}
+
+.chambre_collum{
+    border:solid none 1px;
+    display:inline-block;
+    vertical-align:top;
+    width:46%;
+}
+
+.chambre_collum .haut img{
+    width:100%;
+}
+
+.chambre_collum .bas{
+    text-align: center;
+}
+
+.chambre_collum .bas img{
+    width:49%;
+}
+
+.chambre_collum .letext p{
+    color:#784411;
+    text-align: justify;
+}
+
+.chambre_collum .leprix{
+    height:60px;
+    background: #ffe7d0;
+    padding: 5px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.chambre_collum .leprix p{
+    color:#333;
+    font-family:arial;
+    font-weight:bold;
+    font-size:1.5em;
+    letter-spacing: 0px;
+    width:25%;
+    display:inline-block;
+    border:solid none 1px;
+}
+
+.chambre_collum .reserve_btn{
+    display: inline-block;
+    width:50%;
+    height:30px;
+    margin-top: 15px;
+    margin-left: 2%;
+    background-color:#ffb062;
+    vertical-align: bottom;
+    transition:all 500ms;
+    border-radius:10px;
+}
+
+.reserve_btn a{
+    font-family:arial;
+    font-weight:bold;
+    text-decoration: none;
+    display:block;
+    color:#fff;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    width:100%;
+    text-shadow:1px 1px 1px black;
+}
+
+.chambre_collum .reserve_btn :hover{
+    background-color:darkorange;
+    transition:all 500ms;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+/*========== Media Chambre =========*/
+
+@media(max-width:650px){
+    body{
+        background-color: #dbdbdb;
+    }
+
+    .chambre_collum{
+        display:block;
+        margin: auto;
+        width:90%;
+        margin-bottom: 10px;
+    }
+
+    .unechambre h2{
+        margin: auto;
+        margin-bottom: 15px;
+        width:90%;
+    }
+}
